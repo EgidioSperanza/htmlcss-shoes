@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Kanit', sans-serif;
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.shoes{
+    position: relative;
+    height:100vh;
+}
+
+nav{
+   position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 50%;
+    margin: 20px;
+    text-align: center;
+    color: black;
+    line-height: 50px;
+}
+
+nav a, nav a :visited{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+}
+
+nav ul li:hover{
+    color:white;
+    background: black;
+}
+
+.shoe-1{
+    background-color: red;
+}
+
+.shoe-2{
+    background-color: green;
+}
+
+.shoe-3{
+    background-color: yellow;
+}
+
+.product-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.product-img img{
+    width: 100%;
+}
+
+.product-text h1{
+    text-transform: uppercase;
+    color:yellow;
+    font-size: 28px;
+    text-align: center;
+}
+
+.shoe-3 .product-text h1{
+    color:green
+}

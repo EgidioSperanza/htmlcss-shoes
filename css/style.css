@@ -49,6 +49,10 @@ nav a, nav a :visited{
     color: black;
 }
 
+nav ul li:hover a:visited{
+    color:white;
+}
+
 nav ul li:hover{
     color:white;
     background: black;
